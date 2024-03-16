@@ -1,0 +1,154 @@
+:root{
+    --mainclr:#239f85;
+    --secclr:#ff5d22;
+    --third:#DFE4E0;
+    --mainafterclr:hsl(167, 57%, 54%);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding: 0.6rem 7%;
+    background-color: var(--mainclr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+.header #logo{
+    width: 50px;
+}
+.navbar a{
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 3.5rem;
+    position: relative;
+  
+}
+.navbar a:after{
+    content: '';
+    background: var(--secclr);
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    transition: .3s;
+}
+.navbar a:hover:after{
+    content: '';
+    background: var(--secclr);
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+}
+.icons div{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: white;
+    display: none;
+}
+.icons a{
+    color: white;
+    background: var(--secclr);
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: .5s;
+}
+.icons a:hover{
+    background: transparent;
+    border: 1px solid var(--secclr);
+}
+.navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.background-image{
+    background: url(images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6%;
+    position: relative;
+
+}
+.d{
+    display: flex;
+    margin: 80px;
+    font-size: 2rem;
+    justify-content:space-around;
+    color:white;
+    margin: 0 10%;
+    flex-wrap: wrap;
+}
+.d1 select{
+    width: 250px;
+    height: 100%;
+    max-height: 40px;
+    border: 4px solid black;
+    margin: 31px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border: 4px solid black;
+}
+.r{
+    text-align: justify;
+    margin: 5px 10%;
+    font-size: larger;
+    color: white;
+    max-height: 500vh;
+}
+.but{
+    margin-left: 50%;
+    margin-top: 25px;
+}
+.but button{
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    color: white;
+    border-radius: 15px;
+    background-color: #ff5d22;
+    margin: 0px 0px 10px -44px;
+}
+.but button:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid  #ff5d22;
+    color: black;
+}
+.i1{
+    background-image: url(images/dietbg.png);
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    max-height: 1000vh;
+    padding: 10px 0px 20px 0px;
+}
+.m{
+    margin: 50px 10%;
+}
+#young,#adults,#tennager,#babies,#young1,#adults1,#tennager1,#babies1,#child {
+   display: none;
+    margin: 0px 0px 0px 450px;
+    color: black;
+    font-size: larger;
+}
