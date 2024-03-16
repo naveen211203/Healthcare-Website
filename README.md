@@ -37,24 +37,25 @@ Our ultimate destination is to provide personalized nutrition plans and disease 
 <img src="https://graph.org/file/39f6c06bba05eb798c747.jpg">
 <br>
 <br>
+
+
 ## Technical implemntaion 
-mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
-- use bullets to explain
-- be consise and specific
-- explain with images and flowcharts
-- 
-![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
+- Choosing a frontend technology stack such as HTML, CSS, and JavaScript frameworks like React.js or Angular.js for building the user interface.
+- Implementing interactive features such as menus,about and contact functionality to enhance user experience.
+- Selecting a backend technology stack based on your preferences and requirements, such as Node.js etc...
+- Conduct thorough testing of your website, including unit tests, integration tests, and end-to-end tests, to ensure functionality, performance, and compatibility across different browsers and devices.
+- Iterate on your website based on user needs, technological advancements, and emerging trends in healthcare and nutrition.
 
 ## Techstacks used 
-`nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
+`Java script` , `HTML` , `CSS`
 
 ## How to run locally 
-explain detailed steps to run your project locally , example to run a react application 
-- step 1 : clone the repo 
-```
-npm install
-npm start
-```
+- **Step-1** : Fork this project.
+- **Step-2** : Download this project as a zip file.
+- **Step-3** : Extract zip file using Winrar or any extracting software and save it in any folder.
+- **Step-4** : Open that folder in vs code.
+- **Step-5** : In VS code open file named **"Index.html"** and run it.
+- **Step-6** : It will redirect to our website.
 
 # What's next ?
 tell the future plan that you have for the project , tell the updates that you would wish to bring
