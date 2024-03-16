@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> DISEASE CURE DETAILS </title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <header class="header">
+    <img src="images/logo.png" id="logo" alt="">
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="why.html">Why choose us?</a>
+      <a href='https://wa.me/+919392672976'>Contact</a>
+    </nav>
+
+    <div class="icons">
+      <div id="menubar" class="fas fa-bars"></div>
+    </div>
+  </header>
+  <div class="i2">
+    <div class="r">
+      <h1 style="    text-align: center;
+      color: red;
+      padding-left: 450px;">DISEASE CURE DETAILS</h1>
+      <p style="    text-align: center;
+      color: black;
+      padding-left: 450px;">Naturopathy is a form of alternative medicine that focuses on natural remedies and the
+        body's ability to heal
+        itself. It emphasizes the use of natural therapies and lifestyle changes to promote health and prevent or treat
+        diseases.</p>
+    </div>
+    <form action="" method="post" style="-webkit-box-shadow: 0 10px 10px 10px wheat;
+    box-shadow: 0 10px 35px 10px lavenderblush;
+    margin: 50px 80px 10px 550px; border-radius: 10px;">
+      <div class="d">
+        <div class="d1">
+          <div style="display: flex;">
+            <p style="color: black;"> Type Of Disease</p>
+            <select type="text" name="2" id="Diseases" required
+              style="display: flex; margin: 33px 0px 0px 30px;width: 250px;" onchange="updateDiseaseNames()">
+              <option>Select</option>
+              <option>Viral Diseases</option>
+              <option>Infection Diseases</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div style="display: flex;">
+            <p style="color: black;">Disease Name</p>
+            <select type="text" name="2" id="Viral Diseases" required
+              style="display: flex; margin: 33px 0px 0px 58px; width: 250px;">
+              <option>Select</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <script>
+        function updateDiseaseNames() {
+          var typeOfDisease = document.getElementById('Diseases').value.toLowerCase();
+          var diseaseNameSelect = document.getElementById('Viral Diseases');
+
+          if (typeOfDisease === 'viral diseases') {
+            diseaseNameSelect.innerHTML = `
+              <option value="Select">Select</option>
+              <option value="Fever">Fever</option>
+              <option value="Cough">Cough</option>
+              <option value="Cold">Cold</option>
+            `;
+          } else if (typeOfDisease === 'infection diseases') {
+            diseaseNameSelect.innerHTML = `
+              <option value="Select">Select</option>
+              <option value="Cold">Cold</option>
+              <option value="Gastroenteritis">Gastroenteritis</option>
+              <option value="Influenza">Influenza</option>
+            `;
+          } else if (typeOfDisease === 'other') {
+            diseaseNameSelect.innerHTML = `
+              <option value="Select">Select</option>
+              <option value="Headache">Headache</option>
+              <option value="Stomachpain">Stomachpain</option>
+              <option value="Vomiting">Vomiting</option>`
+          
+          } else {
+            // For other types of diseases, reset the dropdown to "Select"
+            diseaseNameSelect.innerHTML = '<option>Select</option>';
+          }
+        }
+
+        // Call the function initially to set the initial options for the "Disease Name" dropdown
+        updateDiseaseNames();
+      </script>
+
+      <div class="but">
+        <button name="data" onclick="my();return false;" style="margin-bottom: 10px;">Submit</button>
+      </div>
+    </form>
+    <div class="m">
+      <div id="fever">
+        <h1>FEVER CURE DETAILS</h1>
+        <p>A fever is a common symptom of many illnesses and is often a sign that the body is fighting off an infection.
+          While there are various over-the-counter medications that can help alleviate fever symptoms, there are also
+          some natural remedies that may provide relief. It's important to note that these remedies may not cure the
+          underlying disease causing the fever, and it's important to seek medical attention if the fever persists or is
+          accompanied by other symptoms.
+        </p>
+        <p>Here are some natural remedies that may help reduce fever symptoms:</p>
+        <ul>
+          <li>Hydration: Drinking plenty of fluids can help prevent dehydration, which can exacerbate fever symptoms.
+            Water, herbal teas, and clear broths are good options.
+          </li>
+          <li>Rest: Getting plenty of rest can help the body focus on fighting off the infection causing the fever.
+          </li>
+          <li>Cool compresses: Applying cool compresses or taking a cool bath or shower can help reduce body temperature
+            and alleviate fever symptoms.
+          </li>
+          <li>Essential oils: Certain essential oils, such as peppermint and eucalyptus, can be diluted in a carrier oil
+            and applied to the skin to help reduce fever symptoms.
+          </li>
+          <li>Garlic: Garlic has antibacterial and antiviral properties and can help boost the immune system. Adding
+            garlic to meals or taking garlic supplements may be helpful.
+          </li>
+          <li>Turmeric: Turmeric contains a compound called curcumin, which has anti-inflammatory properties. Adding
+            turmeric to meals or taking turmeric supplements may help reduce fever symptoms.
+          </li>
+        </ul>
+      </div>
+      <div id="gastroenteritis">
+        <h1>Gastroenteritis Cure Details</h1>
+        <p>Naturopathy focuses on the body's natural ability to heal itself and promotes a holistic approach to health
+          and well-being. When dealing with gastroenteritis, it's essential to support the body's healing process and
+          provide relief from symptoms. However, keep in mind that severe cases of gastroenteritis may require medical
+          attention, especially if there are signs of dehydration or persistent symptoms.</p>
+        <p>Here are some naturopathic approaches that may help manage gastroenteritis symptoms:</p>
+        <ul>
+          <li>Hydration: Staying hydrated is crucial to replace the fluids lost through diarrhea and vomiting. Drink
+            plenty of water, herbal teas, diluted fruit juices.</li>
+          <li>Ginger: Ginger has natural anti-inflammatory and anti-nausea properties. You can consume ginger tea or
+            chew on small pieces of fresh ginger to help ease nausea and improve digestion.</li>
+          <li>Probiotics: Probiotics are beneficial bacteria that can help restore the balance of gut flora disrupted
+            during gastroenteritis. Consume probiotic-rich foods like yogurt or take probiotic supplements.</li>
+          <li>Rest: Allow your body to rest and recover during this time. Avoid strenuous activities and give your
+            digestive system time to heal.</li>
+          <li>Avoid Trigger Foods: Stay away from foods that may exacerbate symptoms, such as spicy, greasy, or highly
+            processed foods.</li>
+          <li>Herbal Supplements: Some herbal supplements, such as slippery elm or marshmallow root, may help soothe
+            inflamed gastrointestinal tissues. </li>
+        </ul>
+      </div>
+      <div id="cough">
+        <h1>COUGH CURE DETAILS</h1>
+        <P>A cough is a common symptom of various conditions, such as a cold, flu, allergies, or asthma. While there are
+          various over-the-counter medications that can help alleviate cough symptoms, there are also some natural
+          remedies that may provide relief. It's important to note that these remedies may not cure the underlying
+          condition causing the cough, and it's important to seek medical attention if coughs persist or are accompanied
+          by other symptoms.
+        </P>
+        <p>Here are some natural remedies that may help alleviate cough symptoms:
+        </p>
+        <ul>
+          <li>Honey: Consuming honey can help soothe a sore throat and cough. It also has antibacterial properties that
+            can help fight off infection.
+          </li>
+          <li>Ginger: Consuming ginger can help relieve symptoms such as cough, congestion, and sore throat. It also has
+            anti-inflammatory properties that can help reduce inflammation.
+          </li>
+          <li>Steam inhalation: Inhaling steam from a hot shower or a bowl of hot water with a towel over the head can
+            help relieve cough and congestion.
+          </li>
+          <li>Saltwater gargle: Gargling with warm saltwater can help relieve a sore throat and reduce inflammation,
+            which can help alleviate cough symptoms.
+          </li>
+          <li>Licorice root: Licorice root has been used in traditional medicine to help soothe coughs and sore throats.
+            It can be consumed as a tea or supplement.
+          </li>
+          <li>Thyme: Thyme has cough-relieving properties and can be consumed as a tea or supplement.
+          </li>
+          <li>Eucalyptus oil: Eucalyptus oil has anti-inflammatory properties and can be inhaled or applied topically to
+            help relieve cough and congestion.
+          </li>
+        </ul>
+      </div>
+      <div id="cold">
+        <h1>COLD CURE DETAILS</h1>
+        <p>The common cold is a viral infection that can cause symptoms such as a runny nose, sore throat, cough, and
+          congestion. While there is no cure for the common cold, there are some natural remedies that can help
+          alleviate symptoms and speed up recovery. It's important to note that these remedies may not cure the
+          underlying viral infection causing the cold, and it's important to seek medical attention if symptoms persist
+          or are accompanied by other symptoms.</p>
+        <p>Here are some natural remedies that may help alleviate cold symptoms:</p>
+        <ul>
+          <li>Hydration: Drinking plenty of fluids can help keep the body hydrated and flush out toxins.</li>
+          <li>Rest: Getting plenty of rest can help the body focus on fighting off the viral infection causing the cold.
+          </li>
+          <li>Honey: Consuming honey can help soothe a sore throat and cough. It also has antibacterial properties that
+            can help fight off infection.
+          </li>
+          <li>Saltwater gargle: Gargling with warm saltwater can help relieve a sore throat and reduce inflammation.
+          </li>
+          <li>Ginger: Consuming ginger can help relieve symptoms such as congestion, cough, and sore throat. It also has
+            anti-inflammatory properties that can help reduce inflammation.
+          </li>
+          <li>Steam inhalation: Inhaling steam from a hot shower or a bowl of hot water with a towel over the head can
+            help relieve congestion and cough.
+          </li>
+          <li>Vitamin C: Consuming foods high in vitamin C, such as oranges, lemons, and kiwi, can help boost the immune
+            system and reduce the duration of the cold.
+          </li>
+        </ul>
+      </div>
+      <div id="headache">
+        <h1>HEADACHE CURE DETAILS</h1>
+        <p>Headaches can be caused by a variety of factors such as tension, dehydration, sinus problems, eyestrain, or
+          as a symptom of an underlying condition. While there are various over-the-counter medications that can help
+          alleviate headache symptoms, there are also some natural remedies that may provide relief. It's important to
+          note that these remedies may not cure the underlying condition causing the headache, and it's important to
+          seek medical attention if headaches persist or are accompanied by other symptoms.
+        </p>
+        <p>Here are some natural remedies that may help alleviate headache symptoms:
+        </p>
+        <ul>
+          <li>Hydration: Drinking plenty of water and staying hydrated can help alleviate headaches caused by
+            dehydration.
+          </li>
+          <li>Essential oils: Certain essential oils, such as peppermint and lavender, can be diluted in a carrier oil
+            and applied to the temples, forehead, or neck to help alleviate headache symptoms.
+          </li>
+          <li>Yoga and meditation: Relaxation techniques such as yoga and meditation can help reduce tension and stress
+            that can contribute to headaches.
+          </li>
+          <li>Acupressure: Applying pressure to specific points on the body, such as the temples, can help alleviate
+            headache symptoms.
+          </li>
+          <li>Herbal tea: Drinking certain herbal teas, such as chamomile, ginger, or peppermint tea, can help reduce
+            headache symptoms.
+          </li>
+          <li>Magnesium: Some studies have suggested that magnesium supplements may help alleviate headaches caused by
+            tension or migraines.
+          </li>
+        </ul>
+      </div>
+      <div id="influenza">
+        <h1>Influenza Cure Details</h1>
+        <p>Naturopathy focuses on supporting the body's natural healing processes and promoting overall well-being.
+          While there is no specific cure for influenza (the flu) through naturopathy or conventional medicine, there
+          are naturopathic approaches that may help alleviate symptoms, support the immune system, and aid in the
+          recovery process. It's important to remember that these approaches should not replace medical treatment,
+          especially in severe cases or for high-risk individuals.</p>
+        <p>Here are some naturopathic remedies and supportive measures for managing influenza symptoms:</p>
+        <ul>
+          <li>Hydration: Drink plenty of fluids, including water, herbal teas, and homemade soups, to stay hydrated and
+            help thin mucus secretions.</li>
+          <li>Rest: Get sufficient rest to support the body's healing process and conserve energy for the immune system.
+          </li>
+          <li>Steam Inhalation: Inhaling steam from a bowl of hot water (with or without added essential oils like
+            eucalyptus or tea tree oil) can help ease congestion and soothe the respiratory tract.</li>
+          <li>Warm Compress: Applying a warm compress to the forehead and sinus area may alleviate headache and sinus
+            pressure.</li>
+          <li>Honey and Lemon: A mixture of honey and lemon in warm water can help soothe a sore throat and provide some
+            relief from coughing.</li>
+          <li>Nasal Irrigation: Nasal saline irrigation using a neti pot or nasal spray may help relieve nasal
+            congestion.</li>
+          <li>Vitamin C and Zinc: These nutrients are known to support the immune system. Foods rich in vitamin C (such
+            as citrus fruits, bell peppers, and broccoli) and zinc (such as pumpkin seeds and legumes) can be included
+            in the diet.</li>
+        </ul>
+      </div>
+      <div id="stomachpain">
+        <h1>Stomachpain Cure Details</h1>
+        <p>Naturopathy focuses on supporting the body's natural healing processes and promoting overall health and well-being. When dealing with stomach pain, it's important to identify the underlying cause of the pain. Stomach pain can be caused by various factors, such as indigestion, gas, acidity, infections, or inflammatory conditions. </p>
+        <p> Here are some naturopathic approaches that may help alleviate stomach pain:</p>
+        <ul>
+          <li>Lemon Water: Sipping warm lemon water can aid digestion and may help relieve stomach pain.</li>
+          <li>Peppermint Oil: Peppermint oil capsules or enteric-coated peppermint oil tablets may help relieve irritable bowel syndrome (IBS) and stomach pain.</li>
+          <li>Fennel Seeds: Chew on a teaspoon of fennel seeds after meals to aid digestion and relieve gas and bloating.</li>
+          <li>Herbal Teas: Chamomile tea, peppermint tea, and ginger tea are known for their soothing properties and can help ease stomach discomfort.</li>
+          <li>Probiotics: Consuming probiotic-rich foods or taking probiotic supplements can help restore the balance of gut flora and aid digestion.</li>
+          <li>Stress Management: Practice stress-reduction techniques such as deep breathing exercises, meditation, or yoga, as stress can contribute to stomach discomfort.</li>
+        </ul>
+      </div>
+      <div id="vomiting">
+        <h1>Vomiting Cure Details</h1>
+        <p>Naturopathy aims to support the body's natural healing abilities and promote overall well-being. When it comes to managing vomiting, it's essential to identify the underlying cause and address it accordingly. However, severe or persistent vomiting can be a sign of a more serious medical condition and may require medical attention. If you are experiencing severe or prolonged vomiting, it is essential to consult a healthcare professional promptly.</p>
+        <p>Here are some naturopathic approaches that may help relieve mild and occasional vomiting:</p>
+        <ul>
+          <li>Stay Hydrated: Sip on clear fluids such as water, herbal teas, or electrolyte solutions (ORS) to stay hydrated. Take small sips frequently rather than large amounts at once.</li>
+          <li>Ginger: Ginger has anti-nausea properties and can be helpful in reducing vomiting. You can consume ginger tea or chew on small pieces of fresh ginger.</li>
+          <li>Lemon: The scent of lemon may help reduce nausea. You can inhale lemon essential oil or add a few drops of lemon juice to water and sip slowly.</li>
+          <li>Avoid Trigger Foods: Stay away from foods or odors that may exacerbate nausea and vomiting.</li>
+          <li>Rest: Allow your body to rest and recover during this time. Avoid strenuous activities and give your digestive system time to settle.</li>
+          <li>Herbal Teas: Certain herbal teas like chamomile and fennel may have soothing effects on the digestive system and help ease vomiting.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+    function my() {
+      var Diseases = document.getElementById('Viral Diseases').value;
+      Diseases = Diseases.toLowerCase();
+      if (Diseases == 'fever') {
+        document.getElementById('fever').style.display = 'block';
+        document.getElementById('cough').style.display = 'none';
+        document.getElementById('cold').style.display = 'none';
+        document.getElementById('headache').style.display = 'none';
+        document.getElementById('gastroenteritis').style.display = 'none';
+        document.getElementById('influenza').style.display = 'none';
+        document.getElementById('stomachpain').style.display = 'none';
+        document.getElementById('vomiting').style.display = 'none';
+      } else if (Diseases == 'cough') {
+        document.getElementById('cough').style.display = 'block';
+        document.getElementById('fever').style.display = 'none';
+        document.getElementById('cold').style.display = 'none';
+        document.getElementById('headache').style.display = 'none';
+        document.getElementById('gastroenteritis').style.display = 'none';
+        document.getElementById('influenza').style.display = 'none';
+        document.getElementById('stomachpain').style.display = 'none';
+        document.getElementById('vomiting').style.display = 'none';
+      } else if (Diseases == 'cold') {
+        document.getElementById('fever').style.display = 'none';
+        document.getElementById('cough').style.display = 'none';
+        document.getElementById('cold').style.display = 'block';
+        document.getElementById('headache').style.display = 'none';
+        document.getElementById('gastroenteritis').style.display = 'none';
+        document.getElementById('influenza').style.display = 'none';
+        document.getElementById('stomachpain').style.display = 'none';
+        document.getElementById('vomiting').style.display = 'none';
+      } else if (Diseases == 'headache') {
+        document.getElementById('fever').style.display = 'none';
+        document.getElementById('cough').style.display = 'none';
+        document.getElementById('cold').style.display = 'none';
+        document.getElementById('headache').style.display = 'block';
+        document.getElementById('gastroenteritis').style.display = 'none';
+        document.getElementById('influenza').style.display = 'none';
+        document.getElementById('stomachpain').style.display = 'none';
+        document.getElementById('vomiting').style.display = 'none';
+      } else if (Diseases == 'gastroenteritis') {
+        document.getElementById('cough').style.display = 'none';
+        document.getElementById('fever').style.display = 'none';
+        document.getElementById('cold').style.display = 'none';
+        document.getElementById('headache').style.display = 'none';
+        document.getElementById('gastroenteritis').style.display = 'block';
+        document.getElementById('influenza').style.display = 'none';
+        document.getElementById('stomachpain').style.display = 'none';
+        document.getElementById('vomiting').style.display = 'none';
+      } else if (Diseases =='influenza') {
+        document.getElementById('cough').style.display = 'none';
+        document.getElementById('fever').style.display = 'none';
+        document.getElementById('cold').style.display = 'none';
+        document.getElementById('headache').style.display = 'none';
+        document.getElementById('gastroenteritis').style.display = 'none';
+        document.getElementById('influenza').style.display = 'block';
+        document.getElementById('stomachpain').style.display = 'none';
+        document.getElementById('vomiting').style.display = 'none';
+      } else if (Diseases =='stomachpain') {
+        document.getElementById('cough').style.display = 'none';
+        document.getElementById('fever').style.display = 'none';
+        document.getElementById('cold').style.display = 'none';
+        document.getElementById('headache').style.display = 'none';
+        document.getElementById('gastroenteritis').style.display = 'none';
+        document.getElementById('influenza').style.display = 'none';
+        document.getElementById('stomachpain').style.display = 'block';
+        document.getElementById('vomiting').style.display = 'none';
+      } else if (Diseases =='vomiting') {
+        document.getElementById('cough').style.display = 'none';
+        document.getElementById('fever').style.display = 'none';
+        document.getElementById('cold').style.display = 'none';
+        document.getElementById('headache').style.display = 'none';
+        document.getElementById('gastroenteritis').style.display = 'none';
+        document.getElementById('influenza').style.display = 'none';
+        document.getElementById('stomachpain').style.display = 'none';
+        document.getElementById('vomiting').style.display = 'block';
+      }
+    }
+  </script>
+
+  
+
+</body>
+
+</html>
