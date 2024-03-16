@@ -3,7 +3,7 @@
         <a href=""> Healthcare Website </a><br>
 </h1>
 
-# [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com) [`Other links `](http://www.google.com) 
+# [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com)
 Our ultimate destination is to provide personalized nutrition plans and disease prevention strategies tailored to different age groups. Our platform is designed to empower individuals to make informed choices about their diet and lifestyle, ultimately leading to improved health outcomes.
 
 ## Team Details
