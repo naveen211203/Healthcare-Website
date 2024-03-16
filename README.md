@@ -1,5 +1,5 @@
 # Healthcare-Website
-** Welcome to Healthcare Website, our ultimate destination is to provide personalized nutrition plans and disease prevention strategies tailored to different age groups. Our platform is designed to empower individuals to make informed choices about their diet and lifestyle, ultimately leading to improved health outcomes.**
+**Welcome to Healthcare Website, our ultimate destination is to provide personalized nutrition plans and disease prevention strategies tailored to different age groups. Our platform is designed to empower individuals to make informed choices about their diet and lifestyle, ultimately leading to improved health outcomes.**
 ## Team Members Details
 - [X] Juturi Venkata Naveen.
 - [X] Neelam Sreenivasulu.
