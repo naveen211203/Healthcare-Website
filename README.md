@@ -29,9 +29,14 @@ Our ultimate destination is to provide personalized nutrition plans and disease 
 - **Lack of Personalized Guidance**: Many individuals struggle to find personalized guidance for managing their health and dietary needs. Our project addresses this by providing age-specific nutritional guidelines and disease-specific precautions, ensuring that users receive tailored recommendations based on their unique circumstances.
 
 <img src="https://graph.org/file/4e7f91089255fe8561978.jpg">
+<br>
+<br>
 <img src="https://graph.org/file/cccc9e51b77bdda060fa7.jpg">
+<br>
+<br>
 <img src="https://graph.org/file/39f6c06bba05eb798c747.jpg">
-
+<br>
+<br>
 ## Technical implemntaion 
 mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
 - use bullets to explain
