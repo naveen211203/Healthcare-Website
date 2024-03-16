@@ -58,7 +58,10 @@ Our ultimate destination is to provide personalized nutrition plans and disease 
 - **Step-6** : It will redirect to our website.
 
 # What's next ?
-tell the future plan that you have for the project , tell the updates that you would wish to bring
-
+- We will add the customer support feature so that the users have any queries with our project we will help them.
+- Implementing this project into an Mobile Application.
+- Adding the feature of Login So that users can login using their mail id and adding an database server to store the data.
+- Updating the information time to time regarding health.
+ 
 ## Declaration
 We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
